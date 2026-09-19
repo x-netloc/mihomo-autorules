@@ -1,0 +1,142 @@
+{
+  "source": "runetfreedom/russia-v2ray-rules-dat@release",
+  "profiles": [
+    "bypass-blacklist",
+    "freedom-no-ru",
+    "freedom-no-ru-no-ads"
+  ],
+  "categories": {
+    "geosite": {
+      "ru-blocked": {
+        "domain": 74739,
+        "extra": 0
+      },
+      "refilter": {
+        "domain": 74658,
+        "extra": 0
+      },
+      "antifilter-download": {
+        "domain": 1371299,
+        "extra": 0
+      },
+      "ru-available-only-inside": {
+        "domain": 167,
+        "extra": 0
+      },
+      "category-ads-all": {
+        "domain": 148872,
+        "extra": 0
+      },
+      "private": {
+        "domain": 130,
+        "extra": 1
+      },
+      "youtube": {
+        "domain": 178,
+        "extra": 0
+      },
+      "twitter": {
+        "domain": 24,
+        "extra": 0
+      },
+      "discord": {
+        "domain": 28,
+        "extra": 0
+      },
+      "meta": {
+        "domain": 554,
+        "extra": 0
+      },
+      "openai": {
+        "domain": 22,
+        "extra": 1
+      },
+      "telegram": {
+        "domain": 21,
+        "extra": 0
+      },
+      "yandex": {
+        "domain": 131,
+        "extra": 0
+      },
+      "apple": {
+        "domain": 1790,
+        "extra": 0
+      },
+      "icloud": {
+        "domain": 53,
+        "extra": 0
+      },
+      "category-ru": {
+        "domain": 1103,
+        "extra": 0
+      },
+      "category-gov-ru": {
+        "domain": 142,
+        "extra": 0
+      },
+      "category-bank-ru": {
+        "domain": 313,
+        "extra": 0
+      },
+      "category-media-ru": {
+        "domain": 141,
+        "extra": 0
+      },
+      "category-ecommerce-ru": {
+        "domain": 199,
+        "extra": 0
+      },
+      "category-retail-ru": {
+        "domain": 82,
+        "extra": 0
+      },
+      "category-travel-ru": {
+        "domain": 25,
+        "extra": 0
+      },
+      "category-medicine-ru": {
+        "domain": 34,
+        "extra": 0
+      }
+    },
+    "geoip": {
+      "ru-blocked": {
+        "cidr": 88591
+      },
+      "re-filter": {
+        "cidr": 24961
+      },
+      "private": {
+        "cidr": 18
+      },
+      "telegram": {
+        "cidr": 12
+      },
+      "cloudflare": {
+        "cidr": 710
+      },
+      "cloudfront": {
+        "cidr": 211
+      },
+      "fastly": {
+        "cidr": 90
+      },
+      "facebook": {
+        "cidr": 123
+      },
+      "google": {
+        "cidr": 8360
+      },
+      "twitter": {
+        "cidr": 19
+      },
+      "yandex": {
+        "cidr": 50
+      },
+      "ru": {
+        "cidr": 25147
+      }
+    }
+  }
+}
