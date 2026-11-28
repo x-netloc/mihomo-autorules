@@ -1,0 +1,146 @@
+{
+  "source": "runetfreedom/russia-v2ray-rules-dat@release",
+  "profiles": [
+    "bypass-blacklist",
+    "freedom-no-ru",
+    "freedom-no-ru-no-ads"
+  ],
+  "categories": {
+    "geosite": {
+      "ru-blocked": {
+        "domain": 72945,
+        "extra": 0
+      },
+      "refilter": {
+        "domain": 72867,
+        "extra": 0
+      },
+      "antifilter-download": {
+        "domain": 1652510,
+        "extra": 0
+      },
+      "ru-available-only-inside": {
+        "domain": 434,
+        "extra": 0
+      },
+      "category-ads-all": {
+        "domain": 188559,
+        "extra": 0
+      },
+      "category-ip-geo-detect": {
+        "domain": 1682,
+        "extra": 0
+      },
+      "private": {
+        "domain": 132,
+        "extra": 1
+      },
+      "youtube": {
+        "domain": 178,
+        "extra": 0
+      },
+      "twitter": {
+        "domain": 24,
+        "extra": 0
+      },
+      "discord": {
+        "domain": 28,
+        "extra": 0
+      },
+      "meta": {
+        "domain": 556,
+        "extra": 0
+      },
+      "openai": {
+        "domain": 24,
+        "extra": 1
+      },
+      "telegram": {
+        "domain": 21,
+        "extra": 0
+      },
+      "yandex": {
+        "domain": 155,
+        "extra": 0
+      },
+      "apple": {
+        "domain": 1666,
+        "extra": 0
+      },
+      "icloud": {
+        "domain": 52,
+        "extra": 0
+      },
+      "category-ru": {
+        "domain": 1179,
+        "extra": 0
+      },
+      "category-gov-ru": {
+        "domain": 409,
+        "extra": 0
+      },
+      "category-bank-ru": {
+        "domain": 358,
+        "extra": 0
+      },
+      "category-media-ru": {
+        "domain": 148,
+        "extra": 0
+      },
+      "category-ecommerce-ru": {
+        "domain": 201,
+        "extra": 0
+      },
+      "category-retail-ru": {
+        "domain": 82,
+        "extra": 0
+      },
+      "category-travel-ru": {
+        "domain": 25,
+        "extra": 0
+      },
+      "category-medicine-ru": {
+        "domain": 45,
+        "extra": 0
+      }
+    },
+    "geoip": {
+      "ru-blocked": {
+        "cidr": 88585
+      },
+      "re-filter": {
+        "cidr": 25277
+      },
+      "private": {
+        "cidr": 28
+      },
+      "telegram": {
+        "cidr": 12
+      },
+      "cloudflare": {
+        "cidr": 916
+      },
+      "cloudfront": {
+        "cidr": 249
+      },
+      "fastly": {
+        "cidr": 96
+      },
+      "facebook": {
+        "cidr": 122
+      },
+      "google": {
+        "cidr": 6915
+      },
+      "twitter": {
+        "cidr": 20
+      },
+      "yandex": {
+        "cidr": 70
+      },
+      "ru": {
+        "cidr": 25421
+      }
+    }
+  }
+}
